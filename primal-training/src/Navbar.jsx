@@ -4,12 +4,15 @@ export default function Navbar() {
     return (
         <>
             <header>
-                <nav>
+                <nav className='header__container'>
                     <div className="navbar__logo">
                         <p>Primal<span>Training</span></p>
                     </div>
                     <div className='navbar__list' >
-                        <AddIcon  className="navbar__menuIcon" />
+                        <div className="removed">
+                            <AddIcon  className="navbar__menuIcon" />
+                        </div>
+
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>

@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,6 +19,76 @@
   list-style: none;
 }
 
+a {
+  color: black;
+}
+
+.primary-btn-style {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 20px;
+}
 
 /* header desing */
 
+header{
+  height: 80px;
+  background-color: var(--secondary-color);
+  border-bottom: 1px solid black;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.navbar__logo p {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.removed {
+  cursor: pointer;
+  margin-top: 25px;
+
+}
+
+.navbar__list ul {
+  display: none;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .removed {
+    display: none;
+  }
+
+
+.navbar__logo {
+  margin-top: 20px;
+}
+  
+  .navbar__list ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 50px;
+  }
+
+  .navbar__list ul li {
+    text-transform: uppercase;
+  }
+  
+
+  
+}
