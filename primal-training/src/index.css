@@ -74,7 +74,7 @@ header {
 /* Hero Section */
 
 .hero__heading {
-  height: 13vh;
+  height: 15vh;
   line-height: 38px;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ header {
 }
 
 .hero__heading h1 {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -91,12 +91,36 @@ header {
   color: var(--primary-color);
 }
 
+.hero__contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__image {
+  object-fit: fill;
+  width: 100%;
+
+}
 
 .hero__image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: fill;
 }
 
+.hero__cta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: var(--secondary-color);
+
+}
+
+.hero__cta h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.85rem;
+}
 
 
 
