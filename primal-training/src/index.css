@@ -42,6 +42,12 @@ a {
   border: 2px solid black;
 }
 
+.seconday-btn {
+  color: white;
+  border: 2px solid white;
+  padding: 11px 16px;
+}
+
 .width {
   width: 88%;
   margin: 0 auto;
@@ -198,6 +204,33 @@ header {
   margin-bottom: 13px;
 }
 
+/* Booking container */
+.booking_container {
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.booking_container h1 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.booking_container p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+
 
 /* heading h1 */
 
@@ -206,6 +239,14 @@ header {
     font-size: 2.8rem;
   }
 
+  /* booking */
+.booking_container h1 {
+  font-size: 3rem;
+}
+
+.booking_container p {
+  font-size: 1.6rem;
+}
 }
 
 @media only screen and (min-width: 700px) {
@@ -290,5 +331,14 @@ header {
   border-top: 1px solid black;
 }
 
+
+/* booking section */
+.booking_container h1 {
+  font-size: 4rem;
+}
+
+.booking_container p {
+  font-size: 1.5rem;
+}
 }
 
