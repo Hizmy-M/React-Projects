@@ -82,9 +82,10 @@ header {
 }
 
 .hero__heading h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2.2rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .hero__heading span {
