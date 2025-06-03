@@ -7,4 +7,22 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --primary-color: #28CB8B;
+  --seondary-color: #E8F5E9;
+
+  --font-color-main: #263238;
+  --font-color-secondary: #717171;
+
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
