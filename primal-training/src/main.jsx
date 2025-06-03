@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import DetailSection from "./DetailSection";
 import CommunitySection from "./CommunitySection";
 import BookingSection from "./BookingSection";
+import Footer from "./Footer";
 
 const root = createRoot(document.getElementById('root'))
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <DetailSection />
     <CommunitySection />
     <BookingSection />
+    <Footer />
   </>
 )
 

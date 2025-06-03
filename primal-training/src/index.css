@@ -215,7 +215,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 10px;
-
+  border-bottom: 1px solid black;
 }
 
 .booking_container h1 {
