@@ -9,8 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
 
 
-  --primary-color: #13ce4b;
+  --primary-color: #008000;
   --seondary-color: #d1ebd1;
+  --light-background: #E8F5E9;
 
   --font-color-main: #263238;
   --font-color-secondary: #717171;
@@ -84,7 +85,7 @@
   gap: 15px;
 }
 
-
+/* hero section */
 
 
 
