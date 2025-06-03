@@ -1,5 +1,5 @@
 :root {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -8,8 +8,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primary-color: #ADD9F4;
-  --secondary-color: #e3eff7;
+  --primary-color: #1d79f1;
+  --secondary-color: #a2b8d4;
 }
 
 * {
@@ -29,9 +29,14 @@ a {
   padding: 15px 20px;
 }
 
+.width {
+  width: 88%;
+  margin: 0 auto;
+}
+
 /* header desing */
 
-header{
+header {
   height: 80px;
   background-color: var(--secondary-color);
   border-bottom: 1px solid black;
@@ -60,12 +65,46 @@ header{
 .removed {
   cursor: pointer;
   margin-top: 25px;
-
 }
 
 .navbar__list ul {
   display: none;
 }
+
+/* Hero Section */
+
+.hero__heading {
+  height: 13vh;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.hero__heading h1 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero__heading span {
+  color: var(--primary-color);
+}
+
+
+.hero__image img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 800px) {
@@ -73,11 +112,10 @@ header{
     display: none;
   }
 
+  .navbar__logo {
+    margin-top: 20px;
+  }
 
-.navbar__logo {
-  margin-top: 20px;
-}
-  
   .navbar__list ul {
     display: flex;
     flex-direction: row;
@@ -88,6 +126,4 @@ header{
   .navbar__list ul li {
     text-transform: uppercase;
   }
-  
-
 }
