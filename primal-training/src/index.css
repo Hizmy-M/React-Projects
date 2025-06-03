@@ -51,8 +51,12 @@ a {
 
 header {
   height: 80px;
+  width: 100%;
   background-color: var(--secondary-color);
   border-bottom: 1px solid black;
+   position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header__container {
@@ -85,6 +89,10 @@ header {
 }
 
 /* Hero Section */
+
+.hero__container {
+  margin-top: 80px;
+}
 
 .hero__heading {
   height: 15vh;
@@ -151,6 +159,8 @@ header {
   font-size: 1.2rem;
 }
 
+/* details section */
+
 
 
 /* heading h1 */
@@ -205,7 +215,7 @@ header {
   }
 
   .hero__cta {
-    width: 47%;
+    width: 57%;
     align-items: center;
     border-left: 1px solid black;
     border-top: none;
@@ -215,6 +225,15 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+  }
+
+  /* details section */
+  .details_section_image {
+    width: 65.5%;
+  }
+
+  .hero__contents_reverse {
+    flex-direction: row-reverse;
   }
 
 }
