@@ -2,9 +2,9 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div className="footer__container">
-                    <div className="footer__logo">
-                        <h1>PrimalTraining</h1>
+                <div className="footer__container width">
+                    <div className="footer__logo hero__heading">
+                        <h1>Primal<span>Training</span> </h1>
                     </div>
                     <div className="footer_nav">
                         <div className="footer_nav_one">
