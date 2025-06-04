@@ -57,7 +57,7 @@
 .navbar__container {
   display: flex;
   justify-content: space-between;
-  height: 13vh;
+  height: 10vh;
   align-items: center;
   width: 90%;
   margin: 0 auto;
@@ -91,6 +91,25 @@
 }
 
 /* hero section */
+main {
+    background-color: #d1ebd1;
+
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  gap: 15px;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.hero__image img {
+  width: 100%;
+  height: auto;
+}
 
 
 
@@ -102,6 +121,8 @@
   .navbar__navigations {
     display: flex;
   }
+
+
 
 }
 
