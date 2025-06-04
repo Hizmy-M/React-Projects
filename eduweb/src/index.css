@@ -100,7 +100,7 @@ main {
   display: flex;
   flex-direction: column;
   height: 85vh;
-  padding-top: 31px;
+  align-items: center;
 }
 
 .hero__content {
