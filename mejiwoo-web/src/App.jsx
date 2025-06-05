@@ -2,6 +2,7 @@ import Header from "./Header";
 import HeroSection from "./HeroSection";
 import SeasonCollection from "./SeasonCollection";
 import BestSeller from "./BestSeller"
+import OfferSection from "./OfferSection";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <HeroSection />
             <SeasonCollection />
             <BestSeller />
+            <OfferSection />
         </>
     )
 }
