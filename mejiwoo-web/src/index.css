@@ -61,11 +61,13 @@ header {
 
 main {
   background-color: var(--primary-color);
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
 }
 
 .hero_images {
-  height: 380px;
+  height: 400px;
 }
 
 .hero__image-one {
@@ -78,6 +80,7 @@ main {
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
+  gap: 10px;
 }
 
 .hero__content {
