@@ -4,7 +4,7 @@ import Header from "./Header";
 import HeroSection from "./HeroSection";
 import AnnouncementOne from "./AnnouncementOne";
 import AnnouncementTwo from "./AnnouncementTwo";
-import AnnouncementThree from "./AnnouncementThree";
+import SectionTwo from "./SectionTwo";
 import SectionOne from "./SectionOne"
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
             <AnnouncementOne />
             <SectionOne />
             <AnnouncementTwo />
+            <SectionTwo />
         </>
     )
 }

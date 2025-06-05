@@ -188,7 +188,6 @@ main {
 
 
 /* announcement section */
-
 .announcement__container {
   display: flex;
   flex-direction: column;
@@ -248,6 +247,23 @@ main {
   gap: 20px;
   padding: 20px;
   align-items: center;
+}
+
+/* section two */
+.sectionTwo__left {
+  text-align: start;  
+}
+
+.sectionTwo__left_content {
+  margin-top: 20px;
+}
+
+.sectionTwo__left_content h2 {
+  font-size: 1.3rem;
+}
+
+.sectionTwo__left_content p {
+  margin-bottom: 10px;
 }
 
 
@@ -328,8 +344,16 @@ main {
     justify-content: center;
   }
 
-  
- 
+  /* sectionTwo */
+ .sectionTwo__right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionTwo__left {
+  flex: 1;
+}
 
 }
 
