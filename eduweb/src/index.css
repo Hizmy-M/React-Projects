@@ -250,6 +250,12 @@ main {
 }
 
 /* section two */
+.section__two {
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
+
+
 .sectionTwo__left {
   text-align: start;  
 }
@@ -266,6 +272,29 @@ main {
   margin-bottom: 10px;
 }
 
+
+/* Footer */
+footer {
+  height: 70vh;
+  background-color: var(--seondary-color);
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.footer__logo h1 {
+  font-size: 3rem;
+  margin-bottom: -15px;
+}
+
+.footer__nav ul li {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
 
 
 /* media screen */
@@ -353,6 +382,19 @@ main {
 
 .sectionTwo__left {
   flex: 1;
+}
+
+footer {
+  height: 50vh;
+}
+
+.footer__logo h1 {
+  font-size: 4.3rem;
+}
+
+.footer__container {
+  flex-direction: row;
+  align-items: center;
 }
 
 }

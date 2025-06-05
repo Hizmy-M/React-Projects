@@ -6,6 +6,7 @@ import AnnouncementOne from "./AnnouncementOne";
 import AnnouncementTwo from "./AnnouncementTwo";
 import SectionTwo from "./SectionTwo";
 import SectionOne from "./SectionOne"
+import Footer from "./Footer";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <SectionOne />
             <AnnouncementTwo />
             <SectionTwo />
+            <Footer />
         </>
     )
 }
