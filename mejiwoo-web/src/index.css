@@ -119,6 +119,7 @@ main {
   width: 100%;
   max-width: 450px;
   object-fit: contain;
+  margin-bottom: 5px;
 }
 
 .product__container {
@@ -137,6 +138,8 @@ main {
 
 .product__heading h1 {
   font-size: 3rem;
+  line-height: 50px;
+  text-align: center;
 }
 
 .product__image_card {
@@ -148,9 +151,15 @@ main {
   text-transform: uppercase;
 }
 
+/* best seller */
+.product__image_card-price p {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
 
-
-
+.best_seller {
+  margin-bottom: 50px;
+}
 
 
 
