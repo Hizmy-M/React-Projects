@@ -2,6 +2,7 @@ import ClientSection from "./ClientSection";
 import CommunitySection from "./CommunitySection";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
+import AnnouncementOne from "./AnnouncementOne";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <HeroSection />
             <ClientSection />
             <CommunitySection />
+            <AnnouncementOne />
         </>
     )
 }
