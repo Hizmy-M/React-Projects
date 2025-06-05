@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,4 +14,98 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+/* default styles */
+.width {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+/* header section */
+
+header {
+  height: 12vh;
+  text-align: center;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo h1 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: -3px;
+}
+
+.header__logo p {
+  font-size: 0.9rem;
+}
+
+.header__navigations {
+  display: none;
+}
+
+.header__atc {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media only screen and (min-width: 800px) {
+  /* header style */
+  header {
+    justify-content: space-between;
+  }
+
+  .header__navigations {
+  display: block;
+}
+
+.header__navigations ul {
+  display: flex;
+}
+
+.header__atc {
+  display: flex;
+}
+
 }
