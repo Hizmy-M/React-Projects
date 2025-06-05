@@ -9,7 +9,7 @@ export default function OfferSection() {
                 <div className="offer__content">
                     <h1>Get 50% Off</h1>
                     <p>for all new product purchases <br /> min. purchase Rp. 350.000</p>
-                    <button>Shop Now</button>
+                    <button className="primary--btn" >Shop Now</button>
                 </div>
                 <div className="offer__right">
                     <img src="/src/assets/image-14.png" alt="blouse-collection" />
