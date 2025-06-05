@@ -10,7 +10,7 @@ export default function HeroSection() {
                     </div>
                 </div>
                 <div className="hero__image">
-                    <img src="/src/assets/image-01.png" alt="image-01" />
+                    <img src="/src/assets/image-01.png" alt="image-01" className="responsive" width="400" height="200" />
                 </div>
             </div>
         </main>
