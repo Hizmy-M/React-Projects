@@ -111,8 +111,43 @@ main {
 }
 
 
+/* product images */
+/* seasonal collection */
 
+.product__image_card img {
+  height: auto;
+  width: 100%;
+  max-width: 450px;
+  object-fit: contain;
+}
 
+.product__container {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.product__images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product__heading h1 {
+  font-size: 2.1rem;
+}
+
+.product__image_card {
+  text-align: center;
+}
+
+.product__image_card p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
 
 
 
@@ -211,6 +246,11 @@ main {
 
 .hide {
   display: none;
+}
+
+.product__images {
+  flex-direction: row;
+  gap: 25px;
 }
 
 
