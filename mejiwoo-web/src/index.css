@@ -26,6 +26,24 @@
   margin: 0 auto;
 }
 
+.primary--btn {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 13px 28px;
+  font-size: .9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.primary--btn:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
 
 /* header section */
 
@@ -211,15 +229,7 @@ main {
 }
 
 .offer__content button {
-  border: none;
-  background-color: white;
-  padding: 13px 28px;
-  font-size: .9rem;
-  border-radius: 10px;
-  cursor: pointer;
   margin-top: 15px;
-  font-weight: bold;
-  border: 2px solid black;
 }
 
 
