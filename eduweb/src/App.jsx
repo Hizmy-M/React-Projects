@@ -1,3 +1,4 @@
+import ClientSection from "./ClientSection";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 
@@ -6,6 +7,7 @@ function App() {
         <>
         <Header />
         <HeroSection />
+        <ClientSection />
         </>
     )
 }
