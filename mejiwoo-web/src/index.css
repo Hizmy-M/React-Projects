@@ -18,7 +18,7 @@
 
 /* default styles */
 .width {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ header {
   display: none;
 }
 
-
+/* hero section */
 
 
 
@@ -110,8 +110,8 @@ header {
   display: flex;
   width: 20%;
   height: 25px;
-  justify-content: center;
-  gap: 20px;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
 .header__logo {
