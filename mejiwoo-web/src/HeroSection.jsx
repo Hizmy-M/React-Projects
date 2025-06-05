@@ -15,6 +15,10 @@ export default function HeroSection() {
                         <div className="hero__content_sub">
                             <p>make your everyday look prettier with MEJIWOO Korean Made</p>
                         </div>
+                        <div className="hero__buttons">
+                            <button className="primary--btn" >Login</button>
+                            <button className="secondary--btn" >Signup</button>
+                        </div>
                     </div>
                     <div className="hero__image-two">
                         <img className="hero_images"  src="/src/assets/image-06.png" alt="image-01" />
