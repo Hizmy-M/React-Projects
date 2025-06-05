@@ -28,11 +28,11 @@
 header {
   height: 12vh;
   text-align: center;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .header__logo h1 {
   text-transform: uppercase;
@@ -98,14 +98,24 @@ header {
 
   .header__navigations {
   display: block;
+  width: 20%;
 }
 
 .header__navigations ul {
   display: flex;
+  gap: 25px;
 }
 
 .header__atc {
   display: flex;
+  width: 20%;
+  height: 25px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header__logo {
+  flex: 1;
 }
 
 }
