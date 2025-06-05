@@ -44,6 +44,19 @@
   border-color: black;
 }
 
+.secondary--btn {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 13px 28px;
+  font-size: .9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+
 
 /* header section */
 
@@ -128,6 +141,12 @@ main {
   line-height: 55px;
 }
 
+
+.hero__buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
 
 /* product images */
 /* seasonal collection */
