@@ -348,12 +348,18 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.community-color {
+  background-color: var(--primary-color);
 }
 
 .community-one-heading h1 {
   line-height: 40px;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
 }
 
 .community-one {
@@ -377,7 +383,7 @@ main {
 }
 
 .community-one-content ul li {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   text-align: start;
   margin-bottom: 10px;
@@ -437,9 +443,10 @@ form input {
   background-color: var(--primary-color);
 }
 
-
+/* ------------------------------------------------------------------------------------------------------------- */
 
 /* media query */
+
 @media only screen and (min-width: 800px) {
   /* header style */
   header {
@@ -555,6 +562,28 @@ main {
   justify-content: space-between;
 }
 
+
+.community-main {
+  height: 60vh;
+}
+
+.community-one {
+  width: 100%;
+  height: 90%;
+  margin: auto 0;
+}
+
+
+.community-one-heading h1 {
+  font-size: 2.5rem;
+  line-height: 45px;
+  padding-bottom: -15px;
+}
+
+.community-one-content ul li {
+  font-size: 1.2rem;
+}
+
 .community-two-form {
   height: 60%;
   padding-top: 20px;
@@ -566,11 +595,7 @@ main {
   padding-bottom: 20px;
 }
 
-.community-one {
-  width: 100%;
-  height: 55vh;
 
-}
 .community-two {
     border-left: 1px solid black;
     border-top: none;
