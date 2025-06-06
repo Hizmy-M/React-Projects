@@ -4,6 +4,7 @@ import SeasonCollection from "./SeasonCollection";
 import BestSeller from "./BestSeller"
 import OfferSection from "./OfferSection";
 import ProductSeciont from "./ProductSeciont";
+import CustomerReview from "./CustomerReview";
 
 
 function App() {
