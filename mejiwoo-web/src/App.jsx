@@ -5,8 +5,8 @@ import BestSeller from "./BestSeller"
 import OfferSection from "./OfferSection";
 import ProductSeciont from "./ProductSeciont";
 import CustomerReview from "./CustomerReview";
-
-import CommunityOne from "./CommunitySection";
+import CommunitySection from "./CommunitySection";
+import Footer from "./Footer";
 
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
             <OfferSection />
             <ProductSeciont />
             <CustomerReview />
-            <CommunityOne />
+            <CommunitySection />
+            <Footer />
         </>
     )
 }
