@@ -16,6 +16,7 @@ function App() {
             <BestSeller />
             <OfferSection />
             <ProductSeciont />
+            <CustomerReview />
         </>
     )
 }

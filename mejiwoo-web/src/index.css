@@ -10,7 +10,7 @@
 
 
 
-  --primary-color : #F7F6F0;
+  --primary-color : #faf8ec;
 }
 
 * {
@@ -196,7 +196,6 @@ main {
 
 .best_seller {
   margin-bottom: 50px;
-  background-color: var(--primary-color);
 }
 
 /* offer section */
@@ -278,10 +277,67 @@ main {
   height: auto;
 }
 
-/*  */
+/* customer review section */
+.cusReview__container {
+  padding-bottom: 40px;
+}
 
+.cusReview__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 
+.cusReview__content_card {
+  background-color: var(--primary-color);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  border-radius: 10px;
+}
 
+.content__card_image {
+  width: 100%;
+  height: 100%;
+
+}
+
+.content__card_image img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.card__heading {
+  text-align: center;
+  padding: 15px;
+}
+
+.card__heading h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.card__heading p {
+  font-size: 0.9rem;
+}
+
+.card__p {
+  font-size: 0.86rem;
+}
+
+.cusReview__heading {
+  text-align: center;
+  line-height: 50px;
+}
+
+.cusReview__heading h1 {
+  font-size: 3rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 
 
@@ -399,7 +455,10 @@ main {
   height: 100%;
 }
 
-
+/* customer review */
+.cusReview__content {
+  flex-direction: row;
+}
 
 
 }
