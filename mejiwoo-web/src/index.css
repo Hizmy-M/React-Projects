@@ -262,11 +262,23 @@ main {
   justify-content: center;
 }
 
+/* featured collection */
+.featured__card {
+  border: 2px solid red;
+}
 
+.featured__contents {
+  display: grid;
+  border: 2px solid green;
+  grid-template-columns: auto auto auto;
+}
 
+.featured__card img {
+  width: 100%;
+  height: auto;
+}
 
-
-
+/*  */
 
 
 
