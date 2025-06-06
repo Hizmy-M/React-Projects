@@ -364,6 +364,7 @@ main {
 
 .community-one {
   height: 60vh;
+  display: flex;
 }
 
 .community-one-heading {
