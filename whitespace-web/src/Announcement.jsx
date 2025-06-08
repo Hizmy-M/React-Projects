@@ -4,12 +4,13 @@ export default function Announcement() {
             <div className="plan__container">
                 <div className="plan__one">
                      <div className="plan__one-heading">
-                        <h1>Customise it to your needs</h1>
+                        <h1>Your work everywhere you are</h1>
                         <p>
-                            Customise the app with plugins, customise themes and multipletext editors (Rich Text
-                            or Markdown) or create your own scripts and plugins using the Extension API. 
+                            Access your notes from your computer, phone or tablet by synchronising with various
+                            services, including whitespace, Dropbox and OneDrive. The app is available on Windows,
+                            macOs, Linux, Android and IOS. A terminal app is also available!    
                         </p>
-                        <button>Let's Go</button>
+                        <button>Try Taskey</button>
                     </div>
                 </div>
             </div>

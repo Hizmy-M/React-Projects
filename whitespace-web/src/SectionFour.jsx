@@ -13,7 +13,7 @@ export default function SectionFour() {
                     </div>
                 </div>
                 <div className="section__two">
-                    <img src="/src/assets/image-03.svg" alt="section-two" />
+                    <img src="/src/assets/image-04.svg" alt="section-two" />
                 </div>
             </div>
         </main>
