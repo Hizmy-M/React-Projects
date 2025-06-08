@@ -27,3 +27,34 @@
   text-decoration: none;
   list-style: none;
 }
+
+/* default styles */
+.width {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/* Header */
+
+.header {
+  height: 6vh;
+  border: 2px solid red;
+}
+
+.header__navigations {
+  display: none;
+}
+
+.header__container {
+  display: flex;
+  border: 2px solid green;
+  height: 100%;
+  align-items: center;
+}
+
+
