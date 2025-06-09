@@ -124,7 +124,13 @@
     height: 100%;
     align-items: center;
     justify-content: space-around;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
 
+  .header__navigations nav ul li:hover {
+      font-weight: 600;
   }
 
   .header__navigations nav {
