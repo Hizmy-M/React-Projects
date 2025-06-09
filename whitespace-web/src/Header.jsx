@@ -1,12 +1,12 @@
 import KeyboardDoubleArrowRightTwoToneIcon from '@mui/icons-material/KeyboardDoubleArrowRightTwoTone';
-
+import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
 
 export default function Header() {
     return (
         <header className="header">
             <div className="header__container width">
                 <div className="header__logo">
-                    <span>whitespace</span>
+                    <h1> <span><SpaceDashboardIcon /></span> Whitespace</h1>
                 </div>
                 <div className="header__navigations">
                     <nav>

@@ -30,7 +30,7 @@
 
 /* default styles */
 .width {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -70,6 +70,32 @@
 
 
 /* Header */
+.header__navigations {
+  display: none;
+}
+
+.header {
+  height: 6.3vh;
+  background-color: var(--primary-color-dark);
+  color: white;
+}
+
+.header__container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.header__logo h1 {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.header__logo span {
+  margin-top: 3px;
+  margin-right: 1px;
+}
 
 
 
@@ -77,5 +103,44 @@
 
 @media only screen and (min-width: 800px) {
   
+  /* header */
+
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    width: 15%;
+  }
+  
+  .header__navigations {
+    display: flex;
+    width: 80%;
+  }
+
+
+  .header__navigations nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .header__navigations nav {
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .header__btns {
+    display: flex;
+    height: 80%;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+
+  }
+
+
 
 }
