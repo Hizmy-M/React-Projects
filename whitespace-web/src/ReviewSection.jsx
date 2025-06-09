@@ -13,10 +13,17 @@ export default function ChoosePlanSection() {
                 <div className="plan__two">
                     <div className="review__card">
                         <div className="review__card-one">
-                            <AutoAwesomeIcon sx={{ 
+                            <div className="review__card-image">
+                                <AutoAwesomeIcon sx={{ 
                                 fontSize : 70,
                                 color : "#043873"
                                 }} />
+
+                                <AutoAwesomeIcon sx={{ 
+                                fontSize : 70,
+                                color : "white"
+                                }} />
+                            </div>
                             <p>
                                 Whitespace is desinged as a collaborative tool for businesses tha is a full
                                 project management solution
@@ -36,10 +43,17 @@ export default function ChoosePlanSection() {
                     </div>
                     <div className="review__card">
                         <div className="review__card-one">
-                            <AutoAwesomeIcon sx={{ 
+                            <div className="review__card-image">
+                                <AutoAwesomeIcon sx={{ 
                                 fontSize : 70,
                                 color : "#043873"
                                 }} />
+
+                                <AutoAwesomeIcon sx={{ 
+                                fontSize : 70,
+                                color : "white"
+                                }} />
+                            </div>
                             <p>
                                 Whitespace is desinged as a collaborative tool for businesses tha is a full
                                 project management solution
@@ -59,10 +73,17 @@ export default function ChoosePlanSection() {
                     </div>
                     <div className="review__card">
                         <div className="review__card-one">
-                            <AutoAwesomeIcon sx={{ 
+                            <div className="review__card-image">
+                                <AutoAwesomeIcon sx={{ 
                                 fontSize : 70,
                                 color : "#043873"
                                 }} />
+
+                                <AutoAwesomeIcon sx={{ 
+                                fontSize : 70,
+                                color : "white"
+                                }} />
+                            </div>
                             <p>
                                 Whitespace is desinged as a collaborative tool for businesses tha is a full
                                 project management solution

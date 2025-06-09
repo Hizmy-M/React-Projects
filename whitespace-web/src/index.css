@@ -272,7 +272,28 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 500px;
   border-radius: 10px;
+  border: 3px solid var(--primary-color-dark);
 }
+
+.review__card-image {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+
+.review__card-image:hover,
+.review__card:hover .review__card-image {
+  flex-direction: row-reverse;
+}
+
+.review__card:hover {
+  background-color: #043873;
+  color: white;
+}
+
+
+
 
 .review__card-one {
   padding-bottom: 20px;
