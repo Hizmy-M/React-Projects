@@ -3,8 +3,8 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 export default function ChoosePlanSection() {
     return (
-        <section>
-            <div className="plan__container">
+        <section className='extra-space-bottom extra-space-top'>
+            <div className="plan__container width">
                 <div className="plan__one">
                     <div className="plan__one-heading">
                         <h1>What Our Client Says</h1>
@@ -25,7 +25,7 @@ export default function ChoosePlanSection() {
                         <div className="review__card-two">
                             <div className="review__card-two-image">
                                 <AccountCircleIcon sx={{
-                                    fontSize : 50
+                                    fontSize : 55
                                 }} />
                             </div>
                             <div className="review__card-two-content">
@@ -48,7 +48,7 @@ export default function ChoosePlanSection() {
                         <div className="review__card-two">
                             <div className="review__card-two-image">
                                 <AccountCircleIcon sx={{
-                                    fontSize : 50
+                                    fontSize : 55
                                 }} />
                             </div>
                             <div className="review__card-two-content">
@@ -71,7 +71,7 @@ export default function ChoosePlanSection() {
                         <div className="review__card-two">
                             <div className="review__card-two-image">
                                 <AccountCircleIcon sx={{
-                                    fontSize : 50
+                                    fontSize : 55
                                 }} />
                             </div>
                             <div className="review__card-two-content">
