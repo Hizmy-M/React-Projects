@@ -1,21 +1,25 @@
+import KeyboardDoubleArrowRightTwoToneIcon from '@mui/icons-material/KeyboardDoubleArrowRightTwoTone';
+import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
+
+
+
 export default function Footer() {
     return (
         <footer className="footer" >
             <div className="footer__container width">
                 <div className="footer__one">
                     <div className="footer__one-content">
-                        <h1>Try Whitespace today</h1>
-                        <p>get started for free</p>
-                        <p>Add your whole team as you need to grow</p>
-                        <button>Try whitespace free</button>
-                        <p>On a big team? contact sales</p>
+                        <h1>Try Whitespace <br /> today</h1>
+                        <p>Get started for free <br /> Add your whole team as you need to grow </p>
+                        <button className="primary-btn" >Try Whitespace Free <KeyboardDoubleArrowRightTwoToneIcon /></button>
+                        <p>On a big team? Contact Sales</p>
                     </div>
                 </div>
                 <div className="footer__two">
                     <div className="footer__two-main">
                         <div className="footer__two-logo">
                             <div className="footer__two-logo-heading">
-                                <p>Whitespace</p>
+                                <h1> <span><SpaceDashboardIcon /></span> Whitespace</h1>
                             </div>
                             <p>
                                 Whitespace was creted for the new ways we live and work. We make a better
@@ -46,10 +50,10 @@ export default function Footer() {
                                 <li>Customer Stories</li>
                             </ul>
                         </div>
-                        <div className="footer__two-cta">
+                        <div className="footer__two-one footer__two-cta">
                             <h1>Try it today</h1>
                             <p>Get started for free. Add your whole team as you need to grow</p>
-                            <button>Star Today</button>
+                            <button className="primary-btn" >Start Today <KeyboardDoubleArrowRightTwoToneIcon /></button>
                         </div>
                     </div>
                     <div className="footer__two-sub">
@@ -59,9 +63,6 @@ export default function Footer() {
                             <p>Security</p>
                             <p>Status</p>
                             <p>@2021 Whitespace LLC</p>
-                        </div>
-                        <div className="footer__two-sub-two">
-                            {/* need to add logos */}
                         </div>
                     </div>
                 </div>

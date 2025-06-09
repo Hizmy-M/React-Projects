@@ -264,9 +264,6 @@ img {
 
 /* what our client review */
 
-
-
-
 .review__card {
   padding: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -291,8 +288,6 @@ img {
   background-color: #043873;
   color: white;
 }
-
-
 
 
 .review__card-one {
@@ -333,8 +328,113 @@ img {
 .footer {
   background-color: var(--primary-color-dark);
   color: white;
+  padding-top: 50px;
 }
 
+.footer__one {
+  height: 60vh;
+  width: 100%;
+}
+
+.footer__one-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.footer__one-content h1 {
+  font-size: 3rem;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+.footer__two-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+
+.footer__two-logo {
+  max-width: 300px;
+}
+
+.footer__two-logo h1 {
+  font-size: 1.4rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__two-logo h1 span {
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.footer__two-logo p {
+  font-size: 0.9rem;
+}
+
+
+.footer__two-one {
+  max-width: 200px;
+  
+}
+
+.footer__two-one  h1 {
+  font-size: 1.4rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2px;
+  justify-content: center;
+}
+
+.footer__two-one ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__two-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__two-cta h1 {
+  margin-bottom: 10px;
+}
+
+.footer__two-cta p {
+  margin-bottom: 10px;
+}
+
+
+.footer__two-sub {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__two-sub-one {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
 
 /* -------------------------------------------------------------------------------------------- */
 
@@ -424,6 +524,35 @@ img {
   .reverse {
   flex-direction: row-reverse;
 }
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Footer */
+.footer__two-main {
+  flex-direction: row;
+}
+
+.footer__two-logo {
+  text-align: start;
+}
+
+.footer__two-logo-heading h1 {
+  justify-content: start;
+}
+
+.footer__two-one {
+  align-items: start;
+  text-align: start;
+}
+
+.footer__two-one h1{
+  justify-content: start;
+}
+
+.footer__two-sub-one {
+  flex-direction: row;
+}
+
 
 }
 
