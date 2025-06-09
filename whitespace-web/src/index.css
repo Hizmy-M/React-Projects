@@ -146,16 +146,11 @@ img {
 /* ---------------------------------------------------------------------------------------------- */
 /* plan__one section */
 
-.plan__container {
-  border: 1px solid black;
-}
-
 .plan__one {
   padding: 25px;
 }
 
 .plan__one-heading {
-  border: 2px solid red;
   text-align: center;
 }
 
@@ -166,7 +161,6 @@ img {
 }
 
 .plan__two {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,7 +179,6 @@ img {
 }
 
 .card__heading .heading {
-  border: 2px solid black;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -199,13 +192,11 @@ img {
 }
 
 .card__contents p{
-  border: 2px solid blue;
   font-size: 1.2rem;
 }
 
 .card__contents ul{
   padding: 25px;
-  border: 1px solid red;
 }
 
 .card__contents ul li {
@@ -226,8 +217,24 @@ img {
   background-color: var(--primary-color-dark);
 }
 
+/* -------------------------------------------------------------------------------------------------- */
+.announcement__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-color-dark);
+  color: var(--white);
+}
 
+.annoucement__contents {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 
+.announcement__container button {
+  margin-top: 10px;
+}
 
 
 
@@ -297,7 +304,6 @@ img {
     align-items: center;
     height: 75vh;
     gap: 25px;
-    border: 1px solid red;
   }
 
   .section__one {
@@ -325,7 +331,6 @@ img {
 
   .reverse {
   flex-direction: row-reverse;
-  border: 2px solid pink;
 }
 
 }
