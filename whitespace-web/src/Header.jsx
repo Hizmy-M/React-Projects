@@ -1,3 +1,6 @@
+import KeyboardDoubleArrowRightTwoToneIcon from '@mui/icons-material/KeyboardDoubleArrowRightTwoTone';
+
+
 export default function Header() {
     return (
         <header className="header">
@@ -15,8 +18,8 @@ export default function Header() {
                         </ul>
                     </nav>
                     <div className="header__btns">
-                        <button>Login</button>
-                        <button>Try Whitespace for free</button>
+                        <button className='primary-btn secondary-btn'>Login</button>
+                        <button className="primary-btn" >Try Whitespace <KeyboardDoubleArrowRightTwoToneIcon /></button>
                     </div>
                 </div>
             </div>
