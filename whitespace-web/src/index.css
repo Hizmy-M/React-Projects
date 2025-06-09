@@ -253,6 +253,27 @@ img {
 }
 
 
+/* what our client review */
+.plan__two {
+  border: 2px solid red;
+}
+
+.review__card {
+  border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+.footer {
+  background-color: var(--primary-color-dark);
+  color: white;
+}
 
 
 /* -------------------------------------------------------------------------------------------- */
