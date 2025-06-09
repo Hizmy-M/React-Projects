@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <footer>
-            <div className="footer__container">
+        <footer className="footer" >
+            <div className="footer__container width">
                 <div className="footer__one">
                     <div className="footer__one-content">
                         <h1>Try Whitespace today</h1>
@@ -9,10 +9,6 @@ export default function Footer() {
                         <p>Add your whole team as you need to grow</p>
                         <button>Try whitespace free</button>
                         <p>On a big team? contact sales</p>
-                    </div>
-                    <div className="footer__one-imgs">
-                        {/* todo */}
-                        {/* need to add images */}
                     </div>
                 </div>
                 <div className="footer__two">
