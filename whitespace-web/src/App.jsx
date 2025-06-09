@@ -8,7 +8,7 @@ import SectionFive from "./SectionFive"
 import SectionSix from "./SectionSix"
 import Footer from "./Footer"
 import ReviewSection from "./ReviewSection"
-import ChoosePlanSection from "./ReviewSection"
+import ChoosePlanSection from "./ChoosePlanSection"
 import SponsorSection from "./SponsorSection"
 import Announcement from "./Announcement"
 

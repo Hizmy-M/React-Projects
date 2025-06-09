@@ -143,8 +143,88 @@ img {
   height: 65%;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
+/* plan__one section */
 
+.plan__container {
+  border: 1px solid black;
+}
 
+.plan__one {
+  padding: 25px;
+}
+
+.plan__one-heading {
+  border: 2px solid red;
+  text-align: center;
+}
+
+.plan__one-heading h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  line-height: 50px;
+}
+
+.plan__two {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  width: 82%;
+  max-width: 330px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background-color: var(--secondary-color-main);
+}
+
+.card__heading .heading {
+  border: 2px solid black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card__heading .price {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: var(--primary-color-dark);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.card__contents p{
+  border: 2px solid blue;
+  font-size: 1.2rem;
+}
+
+.card__contents ul{
+  padding: 25px;
+  border: 1px solid red;
+}
+
+.card__contents ul li {
+  margin-bottom: 10px;
+}
+
+.blue__card {
+  background-color: var(--primary-color-dark);
+  color: var(--white);
+  border: none;
+}
+
+.blue__card .price {
+  color: var(--secondary-color-main);
+}
+
+.button-dark {
+  background-color: var(--primary-color-dark);
+}
 
 
 
@@ -246,6 +326,16 @@ img {
   .reverse {
   flex-direction: row-reverse;
   border: 2px solid pink;
+}
+
+}
+
+
+@media only screen and (min-width: 900px) { 
+/* --------------------------------------------------------------------------------------------- */
+/* shoose your plan section */
+.plan__two {
+  flex-direction: row;
 }
 
 
