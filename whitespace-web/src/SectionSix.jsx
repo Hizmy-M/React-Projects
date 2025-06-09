@@ -1,3 +1,6 @@
+import KeyboardDoubleArrowRightTwoToneIcon from '@mui/icons-material/KeyboardDoubleArrowRightTwoTone';
+
+
 export default function SectionSix() {
     return (
         <section className="blue_container">
@@ -9,7 +12,7 @@ export default function SectionSix() {
                             Whitespace teams up with your favourite software. Interegate with over 1000+ apps
                             with Zapier to have all the tools you need for your project success
                         </p>
-                        <button>Read more</button>
+                        <button className="primary-btn" >Read More <KeyboardDoubleArrowRightTwoToneIcon /></button>
                     </div>
                 </div>
                 <div className="section__two">
