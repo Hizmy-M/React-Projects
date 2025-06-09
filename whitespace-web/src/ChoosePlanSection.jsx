@@ -2,7 +2,7 @@ import KeyboardDoubleArrowRightTwoToneIcon from '@mui/icons-material/KeyboardDou
 
 export default function ChoosePlanSection() {
     return (
-        <section>
+        <section className='extra-space-bottom'>
             <div className="plan__container width">
                 <div className="plan__one">
                     <div className="plan__one-heading">
