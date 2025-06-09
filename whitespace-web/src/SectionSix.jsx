@@ -1,7 +1,7 @@
 export default function SectionSix() {
     return (
-        <main>
-            <div className="section__container">
+        <section className="blue_container">
+            <div className="section__container width reverse">
                 <div className="section__one">
                     <div className="section__one-heading">
                         <h1>Work with your faviourite apps using whitespace</h1>
@@ -13,9 +13,9 @@ export default function SectionSix() {
                     </div>
                 </div>
                 <div className="section__two">
-                    <img src="/src/assets/image-03.svg" alt="section-two" />
+                    <img src="/src/assets/image-15.svg" alt="section-two" />
                 </div>
             </div>
-        </main>
+        </section>
     )
 }
