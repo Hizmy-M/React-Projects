@@ -62,7 +62,7 @@
 
 img {
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
   height: auto;
   object-fit: contain;
 }
@@ -210,10 +210,37 @@ img {
 
   }
 
+  /* -------------------------------------------------------------------------------------------------- */
 
   /* main section */
+
   .section__container {
     flex-direction: row;
+    align-items: center;
+    height: 70vh;
+  }
+
+  .section__one {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .section__one-heading h1 {
+    font-size: 3rem;
+  }
+
+  .section__one-heading p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .section__two {
+    flex: 1;
+    height: 100%;
   }
 
   
