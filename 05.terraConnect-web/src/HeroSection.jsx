@@ -1,6 +1,6 @@
 export default function HeroSection() {
     return (
-        <main className="backgorund">
+        <main className="backgorund extra-space">
             <div className="section__container width">
                 <div className="section__one">
                     <h1>Network <span className="logo-color">solutions</span> for worldwide communication</h1>

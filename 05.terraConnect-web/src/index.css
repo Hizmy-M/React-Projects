@@ -30,6 +30,7 @@
     --fs-label: 0.75rem;
     --fs-footer: 0.75rem;
     --fs-logo: 1.2rem
+
 }
 
 * {
@@ -99,6 +100,11 @@ body {
 /* icons */
 
 
+
+/* extra space - bottom and top */
+.extra-space {
+  margin-bottom: 80px;
+}
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -209,6 +215,11 @@ body {
   --fs-label: 0.875rem;
   --fs-footer: 0.875rem;
   --fs-logo: 1.4rem
+
+
+  /* padding */
+  --extra-padding: 70px;
+
 
 }
 
