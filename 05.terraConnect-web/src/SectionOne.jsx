@@ -1,7 +1,7 @@
 export default function SectionOne() {
     return (
         <section>
-            <div className="section__container width">
+            <div className="section__container width section__container-reverse">
                 <div className="section__one">
                     <span className="logo-color highlite-title">Have perfect control</span>
                     <h2>We bring solutions to make life easier for our customers.</h2>
