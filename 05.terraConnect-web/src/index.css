@@ -8,6 +8,24 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --primary-color-one: #F857A6;
+  --primary-color-two: #EF3F6E;
+
+
+  /* -- font styles -- */
+    --fs-nav: 0.875rem;
+    --fs-hero-title: 2.25rem;
+    --fs-hero-subtitle: 1.125rem;
+    --fs-h1: 1.75rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 0.9375rem;
+    --fs-small: 0.75rem;
+    --fs-button: 0.9375rem;
+    --fs-label: 0.75rem;
+    --fs-footer: 0.75rem;
 }
 
 * {
@@ -19,4 +37,82 @@
 
 body {
   font-family: "Inria Sans", sans-serif;
+}
+
+
+/* Default style */
+
+.width {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.primary-button {
+  background: #EF3F6E;
+  background: linear-gradient(31deg, rgba(239, 63, 110, 1) 4%, rgba(250, 130, 170, 1) 42%, rgba(248, 87, 166, 1) 94%);  border: none;
+  color: black;
+  padding: 14px 20px;
+  font-weight: 800;
+  font-size: var(--fs-button);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  background: #F857A6;
+  background: linear-gradient(31deg, rgba(248, 87, 166, 1) 7%, rgba(250, 130, 170, 1) 100%, rgba(248, 87, 166, 1) 63%);
+}
+
+.seconday-button {
+  background: #F857A6;
+background: linear-gradient(39deg, rgba(248, 87, 166, 1) 14%, rgba(71, 15, 34, 1) 100%, rgba(248, 87, 166, 1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* media screen */
+
+@media only screen and (min-width: 800px) { 
+  :root {
+  --fs-nav: 1rem;
+  --fs-hero-title: 3rem;
+  --fs-hero-subtitle: 1.5rem;
+  --fs-h1: 2.25rem;
+  --fs-h2: 1.75rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-button: 1rem;
+  --fs-label: 0.875rem;
+  --fs-footer: 0.875rem;
+}
+
 }
