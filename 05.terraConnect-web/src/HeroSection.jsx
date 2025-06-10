@@ -4,7 +4,7 @@ export default function HeroSection() {
             <div className="section__container width">
                 <div className="section__one">
                     <h1>Network <span className="logo-color">solutions</span> for worldwide communication</h1>
-                    <p>We are a company that focuses on establishing long-term relationship with customers</p>
+                    <h3>We are a company that focuses on establishing long-term relationship with customers</h3>
                     <button className="primary-button">Explore Now</button>
                 </div>
                 <div className="section__two">
