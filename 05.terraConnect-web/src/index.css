@@ -277,6 +277,90 @@ body {
 /* ----------------------------------------------------------------------------------------------------- */
 
 
+/* ----------------------------------------------------------------------------------------------------- */
+/* review-section-end */
+.review__container {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.review__one {
+  display: flex;
+  flex-direction: column;
+}
+
+.review__one-heading {
+  text-align: center;
+}
+
+.review__one-heading h2 {
+  font-size: var(--fs-h2);
+  color: var(--font-color-black);
+  padding-bottom: 5px;
+}
+
+.review__one-heading p {
+  font-size: var(--fs-body);
+  color: var(--font-color-grey);
+  padding-bottom: 15px;
+
+}
+
+.review__one-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.one-content__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.one-content__card span {
+  font-size: var(--fs-h1);
+  font-weight: bold;
+  color: var(--font-color-black);
+  margin-bottom: -4px;;
+}
+
+.one-content__card p {
+  font-size: var(--fs-small);
+  color: var(--font-color-grey);
+}
+
+
+.review__two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.review__two-d {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+
+.review__two-card {
+  max-width: 450px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+/* review-section-end */
+/* ----------------------------------------------------------------------------------------------------- */
+
 
 
 
@@ -387,9 +471,38 @@ body {
   align-items: center;
 }
 
-
-
-
 /* feature section - end */
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+
+.review__one {
+  flex-direction: row;
+  align-items: center;
+}
+
+.review__one-heading {
+  width: 40%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review__one-content {
+  flex: 1;
+}
+
+.review__one-content {
+  flex-direction: row;
+  gap: 0;
+  justify-content: space-between;
+}
+
+.review__two-d {
+  flex-direction: row;
+}
+
 
 }
