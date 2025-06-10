@@ -1,6 +1,8 @@
+import Header from "./Header.jsx"
+
 function App() {
     return(
-        <h1>welcome</h1>
+        <Header />
     )
 }
 
