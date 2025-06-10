@@ -1,9 +1,9 @@
 export default function SectionOne() {
     return (
         <section>
-            <div className="section__container">
+            <div className="section__container width">
                 <div className="section__one">
-                    <p>Have perfect control</p>
+                    <span className="logo-color highlite-title">Have perfect control</span>
                     <h2>We bring solutions to make life easier for our customers.</h2>
                     <p> 
                         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -11,7 +11,7 @@ export default function SectionOne() {
                         eget quam. Praesent commodo cursus magna, vel scelerisque nisl
                         consectetur et. Vivamus sagittis lacus vel augue rutrum.
                     </p>
-                    <div>
+                    <div className="section__o-list">
                         <ul>
                             <li>Aenean quam ornare.Curabitur blandit.</li>
                             <li>Nullam quis risus eget urna mollis ornare.</li>
@@ -23,7 +23,7 @@ export default function SectionOne() {
                     </div>
                 </div>
                 <div className="section__two">
-                    <img src="/src/assets/image-02.png" alt="section-one" />
+                    <img className="image-responsive" src="/src/assets/image-02.png" alt="section-one" />
                 </div>
             </div>
         </section>

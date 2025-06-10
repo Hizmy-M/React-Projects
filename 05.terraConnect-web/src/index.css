@@ -173,7 +173,7 @@ body {
   margin-bottom: 20px;
 }
 
-.section__one p {
+.section__one h3 {
   font-size: var(--fs-hero-subtitle);
   color: var(--font-color-grey);
   margin-bottom: 20px;
@@ -184,6 +184,39 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/* other sections typographies */
+/* section one */
+.section__one h2 {
+  font-size: var(--fs-h2);
+  color: var(--font-color-black);
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.section__one p {
+  font-size: var(--fs-body);
+  color: var(--font-color-grey);
+  margin-bottom: 20px;
+
+}
+
+.section__o-list {
+  display: flex;
+  text-align: start;
+  gap: 25px;
+}
+
+.section__o-list ul {
+  color: var(--font-color-grey);
+  font-size: var(--fs-body);
+}
+
+.section__o-list ul li {
+  padding-bottom: 15px;
+}
+
 
 /* hero-section-end */
 /* ----------------------------------------------------------------------------------------------------- */
@@ -284,7 +317,7 @@ body {
 /* default style */
 /* extra space - bottom and top */
 .extra-space {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 
@@ -334,7 +367,10 @@ body {
   align-items: center;
 }
 
-
+/* section one */
+.section__o-list  {
+  padding: 0 15px;
+}
 
 /* hero section - end */
 /* ----------------------------------------------------------------------------------------------- */
