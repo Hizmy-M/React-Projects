@@ -8,6 +8,7 @@ import CaseStudies from "./CaseStudies.jsx"
 import AboutUs from "./AboutUs.jsx"
 import SectionThree from "./SectionThree.jsx"
 import CommunitySection from "./CommunitySection.jsx"
+import Footer from "./Footer.jsx"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <AboutUs />
             <SectionThree />
             <CommunitySection />
+            <Footer />
         </>
     )
 }
