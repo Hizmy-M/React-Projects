@@ -1,9 +1,9 @@
 export default function Header() {
     return (
-        <header>
-            <div className="header__navigation">
+        <header className="header">
+            <div className="header__navigation width">
                 <div className="header__logo">
-                    <img src="/src/assets/company-logo.png" alt="terraconnect-logo" />
+                    <img  className="logo-image" src="/src/assets/company-logo.png" alt="terraconnect-logo" />
                     <h1>Terra<span className="logo-color">Connect</span></h1>
                 </div>
                 <nav className="header__nav">
@@ -15,10 +15,10 @@ export default function Header() {
                         <li>Blog</li>
                         <li>Documentation</li>
                     </ul>
-                    <div className="header__cta">
-                        <button className="primary-button" >Contact Us</button>
-                    </div>
                 </nav>
+                <div className="header__cta">
+                        <button className="primary-button" >Contact Us</button>
+                </div>
             </div>
         </header>
     )

@@ -15,7 +15,7 @@
 
 
   /* -- font styles -- */
-    --fs-nav: 0.875rem;
+    --fs-nav: 1.1rem;
     --fs-hero-title: 2.25rem;
     --fs-hero-subtitle: 1.125rem;
     --fs-h1: 1.75rem;
@@ -26,6 +26,7 @@
     --fs-button: 0.9375rem;
     --fs-label: 0.75rem;
     --fs-footer: 0.75rem;
+    --fs-logo: 1.2rem
 }
 
 * {
@@ -66,12 +67,51 @@ body {
 
 .seconday-button {
   background: #F857A6;
-background: linear-gradient(39deg, rgba(248, 87, 166, 1) 14%, rgba(71, 15, 34, 1) 100%, rgba(248, 87, 166, 1) 100%);
+  background: linear-gradient(39deg, rgba(248, 87, 166, 1) 14%, rgba(71, 15, 34, 1) 100%, rgba(248, 87, 166, 1) 100%);
+}
+
+.logo-image {
+  width: 15px;
+  height: 33px;
+}
+
+.logo-color {
+  color: var(--primary-color-two);
 }
 
 
 
+/* ------------------------------------------------------------------------------------------------------------- */
 
+/* header section */
+
+.header__navigation {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.header__logo h1 {
+  font-size: var(--fs-logo);
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__cta {
+  display: none;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
 
 
 
@@ -113,6 +153,33 @@ background: linear-gradient(39deg, rgba(248, 87, 166, 1) 14%, rgba(71, 15, 34, 1
   --fs-button: 1rem;
   --fs-label: 0.875rem;
   --fs-footer: 0.875rem;
+  --fs-logo: 1.4rem
+
 }
+
+/* ----------------------------------------------------------------------------------------------- */
+/* header section */
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: var(--fs-nav);
+}
+
+.header__cta  {
+  display: block;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
 
 }
