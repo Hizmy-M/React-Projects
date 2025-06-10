@@ -355,7 +355,17 @@ body {
   padding: 30px;
   background-color: white;
   border-radius: 5px;
+}
 
+.review__two-card p {
+  font-size: var(--fs-small);
+  color: var(--font-color-grey);
+}
+
+.review__two-card h2 {
+  font-size: var(--fs-h3);
+  margin-top: 10px;
+  margin-bottom: -2px;
 }
 
 /* review-section-end */
