@@ -13,6 +13,9 @@
   --primary-color-one: #F857A6;
   --primary-color-two: #EF3F6E;
 
+  --font-color-black : rgb(22, 21, 21);
+  --font-color-grey: rgb(49, 48, 48);
+
 
   /* -- font styles -- */
     --fs-nav: 1.1rem;
@@ -79,6 +82,22 @@ body {
   color: var(--primary-color-two);
 }
 
+/* background color */
+.backgorund {
+  background: #f593bf;
+  background: linear-gradient(43deg, rgba(245, 147, 191, 1) 0%, rgba(247, 200, 224, 1) 0%, rgba(219, 191, 191, 1) 48%, rgba(247, 181, 212, 1) 100%, rgba(186, 186, 186, 1) 74%);
+}
+
+
+/* responsive image */
+.image-responsive {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+/* icons */
+
 
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -86,8 +105,8 @@ body {
 /* header section */
 
 .header__navigation {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header__logo {
@@ -109,13 +128,49 @@ body {
   display: none;
 }
 
+/* header-end */
+/* ----------------------------------------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------------------------------------------------------------- */
 
 
+/* ----------------------------------------------------------------------------------------------------- */
+/* hero section-start */
+.section__container {
+  padding: 50px 0;
+}
+
+.section__one {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__one h1 {
+  font-size: var(--fs-hero-title);
+  line-height: 50px;
+  color: var(--font-color-black);
+  margin-bottom: 20px;
+}
+
+.section__one p {
+  font-size: var(--fs-hero-subtitle);
+  color: var(--font-color-grey);
+  margin-bottom: 20px;
+
+}
+
+.section__two {
+  display: flex;
+  justify-content: center;
+}
 
 
+/* hero-section-end */
+/* ----------------------------------------------------------------------------------------------------- */
 
 
 
@@ -179,7 +234,35 @@ body {
   display: block;
 }
 
+/* header-end */
 /* ----------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+/* hero section - start */
+.section__container {
+  display: flex;
+  padding: 60px 0;
+}
+
+.section__one {
+  width: 48%;
+  align-items: start;
+  text-align: start;
+}
+
+.section__two {
+  flex: 1;
+  align-items: center;
+}
+
+
+
+/* hero section - end */
+/* ----------------------------------------------------------------------------------------------- */
+
 
 
 }
