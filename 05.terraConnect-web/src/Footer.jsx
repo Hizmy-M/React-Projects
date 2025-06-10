@@ -31,7 +31,7 @@ export default function Footer() {
                     <p>Subscribe to our newsletter to get our news & deals delivered to you.</p>
                     <div>
                         <input type="email"  placeholder="Email"/>
-                        <button className="primary--button">Join</button>
+                        <button className="primary-button">Join</button>
                     </div>
                 </div>
             </div>

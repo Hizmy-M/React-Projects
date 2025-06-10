@@ -4,7 +4,7 @@ export default function CommunitySection() {
             <div className="community__section">
                 <span>Join Our Community</span>
                 <h1>We are trusted by over 5000+ clients. Join them now and grow your business.</h1>
-                <button className="primary--button">Get Started</button>
+                <button className="primary-button">Get Started</button>
             </div>
         </section>
     )
