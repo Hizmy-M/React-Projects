@@ -1,13 +1,13 @@
 export default function ReviewSection() {
     return (
         <section>
-            <div className="about-us__container">
-                <div className="about-us__one">
-                    <div className="about-us__one-heading">
+            <div className="review__container">
+                <div className="review__one">
+                    <div className="review__one-heading">
                         <h1>We are proud of our works</h1>
                         <p>We bring solutions to make life easier for our customers</p>
                     </div>
-                    <div className="about-us__one-content">
+                    <div className="review__one-content">
                         <div className="one-content__card">
                             <img src="/src/assets/icon-08.png" alt="icon-08" />
                             <span>1000+</span>
@@ -25,8 +25,8 @@ export default function ReviewSection() {
                         </div>
                     </div>
                 </div>
-                <div className="about-us__two">
-                    <div className="about-us__two-card">
+                <div className="review__two">
+                    <div className="review__two-card">
                         <p>
                             “Vivamus sagittis lacus vel
                             augue laoreet rutrum
@@ -37,7 +37,7 @@ export default function ReviewSection() {
                         <h2>Coriss Ambady</h2>
                         <p>Financial Analyst</p>
                     </div>
-                    <div className="about-us__two-card">
+                    <div className="review__two-card">
                         <p>
                             “Fusce dapibus, tellus ac
                             cursus tortor mauris
@@ -48,7 +48,7 @@ export default function ReviewSection() {
                         <h2>Cory Zamora</h2>
                         <p>Marketing Specialist</p>
                     </div>
-                    <div className="about-us__two-card">
+                    <div className="review__two-card">
                         <p>
                             “Curabitur blandit tempus
                             porttitor. Vivamus sagittis
@@ -59,7 +59,7 @@ export default function ReviewSection() {
                         <h2>Nikolas Brooten</h2>
                         <p>Sales Manager</p>
                     </div>
-                    <div className="about-us__two-card">
+                    <div className="review__two-card">
                         <p>
                             “Etiam adipiscing tincidunt
                             elit convallis felis suscipit ut.
