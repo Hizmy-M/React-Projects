@@ -1,4 +1,4 @@
-export default function AboutUs() {
+export default function ReviewSection() {
     return (
         <section>
             <div className="about-us__container">
