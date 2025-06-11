@@ -53,9 +53,9 @@ export default function AboutUs() {
                     <div className="about-us__card">
                         <h2>Our Mission</h2>
                         <p>
-                            Maecenas faucibus mollis interdum.
-                            Vivamus sagittis lacus vel augue laoreet.
-                            Sed posuere consectetur.
+                            Cras justo odio, dapibus ac facilisis in,
+                            egestas eget quam. Praesent commodo
+                            cursus magna scelerisque.
                         </p>
                     </div>
                     <div className="about-us__card">
