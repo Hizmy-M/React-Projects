@@ -1,7 +1,7 @@
 export default function SectionThree() {
     return (
         <section>
-            <div className="section__container">
+            <div className="section__container width section__container-reverse">
                 <div className="section__one">
                     <div className="section__one-heading">
                         <span>Contact Us</span>
@@ -10,7 +10,7 @@ export default function SectionThree() {
                     <div className="section__one-content">
                         <div className="section__one-card">
                             <div className="section__one-card-image">
-                                <img src="/src/assets/icon-12.png" alt="icon-12" />
+                                <img className="icon-responsive" src="/src/assets/icon-12.png" alt="icon-12" />
                             </div>
                             <div className="section__one-card-content">
                                 <p>Address</p>
@@ -19,7 +19,7 @@ export default function SectionThree() {
                         </div>
                         <div className="section__one-card">
                             <div className="section__one-card-image">
-                                <img src="/src/assets/icon-13.png" alt="icon-13" />
+                                <img className="icon-responsive" src="/src/assets/icon-13.png" alt="icon-13" />
                             </div>
                             <div className="section__one-card-content">
                                 <p>Phone</p>
@@ -28,7 +28,7 @@ export default function SectionThree() {
                         </div>
                         <div className="section__one-card">
                             <div className="section__one-card-image">
-                                <img src="/src/assets/icon-14.png" alt="icon-14" />
+                                <img className="icon-responsive" src="/src/assets/icon-14.png" alt="icon-14" />
                             </div>
                             <div className="section__one-card-content">
                                 <p>E-Mail</p>
@@ -38,7 +38,7 @@ export default function SectionThree() {
                     </div>
                 </div>
                 <div className="section__two">
-                    <img src="/src/assets/image-10.png" alt="" />
+                    <img  className="image-responsive" src="/src/assets/image-10.png" alt="" />
                 </div>
             </div>
         </section>
