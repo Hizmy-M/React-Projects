@@ -43,43 +43,28 @@ export default function AboutUs() {
                 </div>
                 <div className="about-us__two">
                     <div className="about-us__card">
-                        <div className="card__heading">
-                            <span>1</span>
-                        </div>
-                        <div className="card__content">
-                            <h2>Our Vision</h2>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue.
-                                Donec id elit non mi porta gravida at eget.
-                                Fusce dapibus tellus.
-                            </p>
-                        </div>
+                        <h2>Our Vision</h2>
+                        <p>
+                            Nulla vitae elit libero, a pharetra augue.
+                            Donec id elit non mi porta gravida at eget.
+                            Fusce dapibus tellus.
+                        </p>
                     </div>
                     <div className="about-us__card">
-                        <div className="card__heading">
-                            <span>1</span>
-                        </div>
-                        <div className="card__content">
-                            <h2>Our Vision</h2>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue.
-                                Donec id elit non mi porta gravida at eget.
-                                Fusce dapibus tellus.
-                            </p>
-                        </div>
+                        <h2>Our Mission</h2>
+                        <p>
+                            Maecenas faucibus mollis interdum.
+                            Vivamus sagittis lacus vel augue laoreet.
+                            Sed posuere consectetur.
+                        </p>
                     </div>
                     <div className="about-us__card">
-                        <div className="card__heading">
-                                <span>1</span>
-                        </div>
-                        <div className="card__content">
-                            <h2>Our Vision</h2>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue.
-                                Donec id elit non mi porta gravida at eget.
-                                Fusce dapibus tellus.
-                            </p>
-                        </div>
+                        <h2>Our Values</h2>
+                        <p>
+                            Cras justo odio, dapibus ac facilisis in,
+                            egestas eget quam. Praesent commodo
+                            cursus magna scelerisque.
+                        </p>
                     </div>
                 </div>
             </div>
