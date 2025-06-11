@@ -1,13 +1,13 @@
 export default function SectionThree() {
     return (
-        <section>
+        <section className="extra-space">
             <div className="section__container width section__container-reverse">
                 <div className="section__one">
                     <div className="section__one-heading">
-                        <span>Contact Us</span>
-                        <h2>Got any questions? Don't hesitate to get in touch.</h2>
+                        <span className="logo-color highlite-title">Contact Us</span>
+                        <h2>Got any questions? <br /> Don't hesitate to get in touch.</h2>
                     </div>
-                    <div className="section__one-content">
+                    <div className="section__one-card-container">
                         <div className="section__one-card">
                             <div className="section__one-card-image">
                                 <img className="icon-responsive" src="/src/assets/icon-12.png" alt="icon-12" />
