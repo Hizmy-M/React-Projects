@@ -31,7 +31,6 @@
   --fs-footer: 0.75rem;
   --fs-logo: 1.2rem
 
-
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -44,6 +43,10 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .background-color {
