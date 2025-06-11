@@ -38,6 +38,14 @@
                                           /* Default Styles */
 /* --------------------------------------------------------------------------------------------------------- */
 
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
 .background-color {
   background: #020024;
   background: linear-gradient(291deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
