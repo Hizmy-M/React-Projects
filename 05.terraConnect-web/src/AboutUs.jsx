@@ -1,20 +1,25 @@
 export default function AboutUs() {
     return (
         <section>
-            <div className="about-us__container">
+            <div className="about-us__container width">
                 <div className="about-us__one">
                     <div className="about-us__one-images">
                         <div className="two-image">
-                            <img src="/src/assets/image-07.png" alt="image-07" />
-                            <img src="/src/assets/image-08.png" alt="image-08" />
+                            <div className="about-image-responsive">
+                                <img  className="image-responsive" src="/src/assets/image-07.png" alt="image-07" />
+
+                            </div>
+                            <div className="about-image-responsive">
+                                <img  className="image-responsive" src="/src/assets/image-08.png" alt="image-08" />
+                            </div>
                         </div>
                         <div className="one-image">
-                            <img src="/src/assets/image-09.png" alt="image-09" />
+                            <img className="image-responsive" src="/src/assets/image-09.png" alt="image-09" />
                         </div>
                     </div>
                     <div className="about-us__one-content">
                         <div className="one-content-heading">
-                            <p>Who Are We?</p>
+                            <span className="logo-color highlite-title">who are we</span>
                             <h2>Company that believes in the power of creative strategy.</h2>
                             <p> 
                                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur

@@ -408,8 +408,77 @@ body {
 }
 
 
-
 /* case study section - end */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* about us section - start */
+
+
+.about-us__one {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us__one-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-around;
+}
+.two-image {
+  display: flex;
+  gap: 15px;
+
+}
+
+.one-image {
+  width: 100%;
+}
+.one-image img {
+  max-width: 900px;
+}
+
+.about-image-responsive {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.about-us__one-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.one-content-heading h2 {
+  font-size: var(--fs-h2);
+  color: var(--font-color-black);
+  line-height: 30px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+.one-content-heading p {
+  font-size: var(--fs-small);
+  color: var(--font-color-grey);
+}
+
+
+.one-content-notes ul {
+  display: flex;
+  padding: 8px 25px;
+  gap: 8px;
+  color: var(--font-color-grey);
+}
+
+
+
+
+/* about us section - end */
 /* ----------------------------------------------------------------------------------------------------- */
 
 
@@ -526,6 +595,8 @@ body {
 /* ----------------------------------------------------------------------------------------------- */
 
 
+/* ----------------------------------------------------------------------------------------------------- */
+/* review section - start */
 
 
 .review__one {
@@ -555,6 +626,7 @@ body {
   flex-direction: row;
 }
 
+/* review section - end */
 
 /* --------------------------------------------------------------------------------------------------- */
 
@@ -575,5 +647,37 @@ body {
 }
 
 /* case study section - end */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* about us section - start */
+
+.about-us__one  {
+  flex-direction: row;
+  gap: 50px;
+}
+
+.about-us__one-images {
+  width: 45%;
+}
+
+.about-us__one-content {
+  flex: 1;
+}
+.one-content-notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one-content-notes ul {
+  max-width: 450px;
+}
+
+/* about us section - end */
+/* ----------------------------------------------------------------------------------------------------- */
 
 }
