@@ -371,6 +371,47 @@ body {
 /* review-section-end */
 /* ----------------------------------------------------------------------------------------------------- */
 
+/* ----------------------------------------------------------------------------------------------------- */
+/* case study section - start */
+.case-studies__container {
+  padding-bottom: 15px;
+
+}
+
+.case-studies__one {
+  text-align: center;
+  padding-bottom: 35px;
+
+}
+
+.case-studies__one h2 {
+  font-size: var(--fs-h2);
+  line-height: 35px;
+  color: var(--font-color-black);
+}
+
+.case-studies__two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  justify-content: center;
+}
+
+.case-studies__two-card {
+  max-width: 300px;
+}
+
+.case-studies__two-card p {
+  font-size: var(--fs-nav);
+  color: var(--font-color-grey);
+}
+
+
+
+/* case study section - end */
+/* ----------------------------------------------------------------------------------------------------- */
+
 
 
 
@@ -514,5 +555,25 @@ body {
   flex-direction: row;
 }
 
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* case setudy section - start */
+.case-studies__two {
+  flex-direction: row;
+}
+
+.case-studies__container {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.case-studies__two {
+  gap: 15px;
+}
+
+/* case study section - end */
 
 }
