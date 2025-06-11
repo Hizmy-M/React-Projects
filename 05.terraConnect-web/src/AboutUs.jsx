@@ -1,6 +1,6 @@
 export default function AboutUs() {
     return (
-        <section>
+        <section className="extra-space">
             <div className="about-us__container width">
                 <div className="about-us__one">
                     <div className="about-us__one-images">
