@@ -1,0 +1,25 @@
+export default function Header() {
+    return (
+        <header>
+            <div className="header__container">
+                <div className="header__one">
+                    <ul>
+                        <li>Demos</li>
+                        <li>Page</li>
+                        <li>Projects</li>
+                    </ul>
+                </div>
+                <div className="header__two">
+                    <div className="company__logo">SandBox</div>
+                </div>
+                <div className="header__three">
+                    <ul>
+                        <li>Blog</li>
+                        <li>Blocks</li>
+                        <li>Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    )
+}
