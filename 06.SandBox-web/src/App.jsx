@@ -3,6 +3,7 @@ import SectionOne from "./SectionOne";
 import CardSection from "./CardSection";
 import ChooseUs from "./ChooseUs"
 import CollectIdeas from "./CollectIdeas";
+import SaveTime from "./SaveTime";
 import SectionTwo from "./SectionTwo";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <CardSection />
             <ChooseUs />
             <CollectIdeas />
+            <SaveTime />
             <SectionTwo />
 
         </>
