@@ -4,6 +4,7 @@ import CardSection from "./CardSection";
 import ChooseUs from "./ChooseUs"
 import CollectIdeas from "./CollectIdeas";
 import SaveTime from "./SaveTime";
+import ReviewSection from "./ReviewSection";
 import SectionTwo from "./SectionTwo";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <ChooseUs />
             <CollectIdeas />
             <SaveTime />
+            <ReviewSection />
             <SectionTwo />
 
         </>
