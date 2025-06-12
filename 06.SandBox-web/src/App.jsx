@@ -6,6 +6,7 @@ import CollectIdeas from "./CollectIdeas";
 import SaveTime from "./SaveTime";
 import ReviewSection from "./ReviewSection";
 import LatestProjects from "./LatestProjects";
+import MakesDifferent from "./MakesDifferent";
 import SectionTwo from "./SectionTwo";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <SaveTime />
             <ReviewSection />
             <LatestProjects />
+            <MakesDifferent />
             <SectionTwo />
 
         </>
