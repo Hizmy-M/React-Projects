@@ -8,6 +8,7 @@ import ReviewSection from "./ReviewSection";
 import LatestProjects from "./LatestProjects";
 import MakesDifferent from "./MakesDifferent";
 import SectionTwo from "./SectionTwo";
+import Footer from "./Footer";
 
 function App() {
     return (
@@ -22,7 +23,7 @@ function App() {
             <LatestProjects />
             <MakesDifferent />
             <SectionTwo />
-
+            <Footer />
         </>
     )
 }
