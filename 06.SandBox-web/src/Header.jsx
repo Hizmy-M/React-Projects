@@ -10,7 +10,7 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className="header__two">
-                    <div className="company__logo">SandBox</div>
+                    <div className="company__logo">Sand<span className="blue">Box</span></div>
                 </div>
                 <div className="header__three">
                     <ul>
