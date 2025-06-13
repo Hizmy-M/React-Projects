@@ -29,7 +29,7 @@
   --fs-button: 0.9375rem;
   --fs-label: 0.75rem;
   --fs-footer: 0.75rem;
-  --fs-logo: 1.2rem
+  --fs-logo: 2.5rem
 
 }
 
@@ -54,7 +54,15 @@ body {
   background: linear-gradient(291deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
 }
 
+.company__logo {
+  font-size: var(--fs-logo);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+.blue {
+  color: var(--primary-color-main);
+}
 
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Header Section */
