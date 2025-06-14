@@ -109,7 +109,18 @@ body {
 .section__container h1 {
   font-size: var(--fs-hero-title);
   line-height: 40px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  margin-bottom: 22px;
 }
+
+.section__container p {
+  font-size: var(--fs-hero-subtitle);
+  line-height: 27px;
+  margin-bottom: 22px;
+}
+
+
 
 
 
