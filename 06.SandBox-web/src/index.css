@@ -19,14 +19,14 @@
 
   /* -- font styles -- */
     --fs-nav: 1rem;
-    --fs-hero-title: 2.5rem;
-    --fs-hero-subtitle: 1.25rem;
+    --fs-hero-title: 2.7rem;
+    --fs-hero-subtitle: 1.15rem;
     --fs-h1: 1.75rem;
     --fs-h2: 1.5rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
     --fs-small: 0.975rem;
-    --fs-button: 1rem;
+    --fs-button: 0.85rem;
     --fs-label: 0.9875rem;
     --fs-footer: 0.75rem;
     --fs-logo: 1.4rem
@@ -94,11 +94,27 @@ body {
   justify-content: center;
 }
 
+.primary-btn {
+  border: none;
+  padding: 15px 23px;
+  border-radius: 10px;
+  font-size: var(--fs-button);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: var(--primary-color-main);
+  color: white;
+  padding: 13px 21px;
+  border: 2px solid white;
+}
+
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Section One & Two */
 /* --------------------------------------------------------------------------------------------------------- */
 .section__container {
-  height: 350px;
+  height: 550px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -108,10 +124,10 @@ body {
 
 .section__container h1 {
   font-size: var(--fs-hero-title);
-  line-height: 40px;
+  line-height: 45px;
   font-weight: 600;
-  letter-spacing: 2.5px;
-  margin-bottom: 22px;
+  letter-spacing: 2.7px;
+  margin-bottom: 13px;
 }
 
 .section__container p {
@@ -135,14 +151,14 @@ body {
     :root {
   /* -- font styles -- */
   --fs-nav: 1.1rem;
-  --fs-hero-title: 3rem;
-  --fs-hero-subtitle: 1.5rem;
+  --fs-hero-title: 3.5rem;
+  --fs-hero-subtitle: 1.23rem;
   --fs-h1: 2.25rem;
   --fs-h2: 1.75rem;
   --fs-h3: 1.5rem;
   --fs-body: 1rem;
   --fs-small: 0.85rem;
-  --fs-button: 1rem;
+  --fs-button: 0.80rem;
   --fs-label: 0.85rem;
   --fs-footer: 0.85rem;
   --fs-logo: 2rem
@@ -158,6 +174,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 700px;
+}
+
+.section__container h1 {
+  line-height: 53px;
+  letter-spacing: 3.8px;
 }
 
 .header__one {
@@ -183,9 +204,6 @@ body {
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Section One & Two */
 /* --------------------------------------------------------------------------------------------------------- */
-.section__container {
-  height: 450px;
-}
 
 
 
