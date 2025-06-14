@@ -19,16 +19,16 @@
 
   /* -- font styles -- */
     --fs-nav: 1rem;
-    --fs-hero-title: 3rem;
-    --fs-hero-subtitle: 1.5rem;
-    --fs-h1: 2.25rem;
-    --fs-h2: 1.75rem;
-    --fs-h3: 1.5rem;
+    --fs-hero-title: 2.5rem;
+    --fs-hero-subtitle: 1.25rem;
+    --fs-h1: 1.75rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.25rem;
     --fs-body: 1rem;
     --fs-small: 0.975rem;
     --fs-button: 1rem;
-    --fs-label: 0.875rem;
-    --fs-footer: 0.875rem;
+    --fs-label: 0.9875rem;
+    --fs-footer: 0.75rem;
     --fs-logo: 1.4rem
 
 
@@ -103,8 +103,13 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
+.section__container h1 {
+  font-size: var(--fs-hero-title);
+  line-height: 40px;
+}
 
 
 
@@ -119,17 +124,17 @@ body {
     :root {
   /* -- font styles -- */
   --fs-nav: 1.1rem;
-  --fs-hero-title: 2.25rem;
-  --fs-hero-subtitle: 1.125rem;
-  --fs-h1: 1.75rem;
-  --fs-h2: 1.5rem;
-  --fs-h3: 1.25rem;
-  --fs-body: 0.9375rem;
+  --fs-hero-title: 3rem;
+  --fs-hero-subtitle: 1.5rem;
+  --fs-h1: 2.25rem;
+  --fs-h2: 1.75rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1rem;
   --fs-small: 0.85rem;
-  --fs-button: 0.9375rem;
-  --fs-label: 0.75rem;
-  --fs-footer: 0.75rem;
-  --fs-logo: 2.5rem
+  --fs-button: 1rem;
+  --fs-label: 0.85rem;
+  --fs-footer: 0.85rem;
+  --fs-logo: 2rem
 
   } 
 
