@@ -1,9 +1,9 @@
 export default function Header() {
     return (
         <header>
-            <div className="header__container">
+            <div className="header__container width">
                 <div className="header__one">
-                    <ul>
+                    <ul className="header__flex">
                         <li>Demos</li>
                         <li>Page</li>
                         <li>Projects</li>
@@ -13,7 +13,7 @@ export default function Header() {
                     <div className="company__logo">Sand<span className="blue">Box</span></div>
                 </div>
                 <div className="header__three">
-                    <ul>
+                    <ul className="header__flex">
                         <li>Blog</li>
                         <li>Blocks</li>
                         <li>Documentation</li>
