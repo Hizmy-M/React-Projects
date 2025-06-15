@@ -1,7 +1,7 @@
 export default function ChooseUs() {
     return (
         <section>
-            <div className="choose-us__container">
+            <div className="choose-us__container width">
                 <div className="choose-us__one">
                     <span>Why choose sandbox?</span>
                     <h2>Here are a few reasons why our <br /> customers choose Sandbox</h2>
@@ -9,7 +9,7 @@ export default function ChooseUs() {
                 <div className="choose-us__two">
                     <div className="choose-us__card">
                         <div className="choose-us__card-image">
-                            <img src="/src/assets/icon-05.png" alt="icon-05" />
+                            <img className="icon-image" src="/src/assets/icon-05.png" alt="icon-05" />
                         </div>
                         <div className="choose-us__card-content">
                             <h3>Collect Ideas</h3>
@@ -18,7 +18,7 @@ export default function ChooseUs() {
                     </div>
                     <div className="choose-us__card">
                         <div className="choose-us__card-image">
-                            <img src="/src/assets/icon-06.png" alt="icon-05" />
+                            <img className="icon-image" src="/src/assets/icon-06.png" alt="icon-05" />
                         </div>
                         <div className="choose-us__card-content">
                             <h3>Data Analysis</h3>
@@ -27,7 +27,7 @@ export default function ChooseUs() {
                     </div>
                     <div className="choose-us__card">
                         <div className="choose-us__card-image">
-                            <img src="/src/assets/icon-07.png" alt="icon-05" />
+                            <img className="icon-image" src="/src/assets/icon-04.png" alt="icon-05" />
                         </div>
                         <div className="choose-us__card-content">
                             <h3>Finalize Product</h3>
