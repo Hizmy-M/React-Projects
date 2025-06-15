@@ -3,8 +3,8 @@ export default function ChooseUs() {
         <section>
             <div className="choose-us__container width">
                 <div className="choose-us__one">
-                    <span>Why choose sandbox?</span>
-                    <h2>Here are a few reasons why our <br /> customers choose Sandbox</h2>
+                    <span className="sub-font" >Why choose sandbox?</span>
+                    <h2 className="main-font" >Here are a few reasons why our <br /> customers choose Sandbox</h2>
                 </div>
                 <div className="choose-us__two">
                     <div className="choose-us__card">
