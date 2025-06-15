@@ -1,5 +1,6 @@
 export default function Footer() {
-    <footer>
+    return (
+        <footer>
         <div className="footer__container">
             <div className="footer__one">
                 <p>SandBox</p>
@@ -50,4 +51,5 @@ export default function Footer() {
             </div>
         </div>
     </footer>
+    )
 }
