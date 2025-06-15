@@ -92,7 +92,7 @@ body {
 
 .main-font {
   font-size: var(--fs-h1);
-  line-height: 28px;
+  line-height: 35px;
   font-weight: 520;
   color: var(--primary-color-sub);
 }
@@ -216,6 +216,10 @@ body {
 /* ######################################################################################################## */
                                           /* Choose Us Section */
 /* ######################################################################################################## */
+
+.choose-us__container {
+  margin-top: 110px;
+}
 
 
 .choose-us__one {
