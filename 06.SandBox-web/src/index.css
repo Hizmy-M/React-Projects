@@ -167,12 +167,10 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  max-width: 280px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
-  height: 100%;
-  width: 100%;
 }
 
 .card__contents h1 {
