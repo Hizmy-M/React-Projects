@@ -75,6 +75,11 @@ body {
   color: white;
 }
 
+.icon-image {
+  width: 25px;
+  height: auto;
+}
+
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Header Section */
 /* --------------------------------------------------------------------------------------------------------- */
@@ -137,6 +142,57 @@ body {
 }
 
 
+/* ######################################################################################################## */
+                                          /* Card Section */
+/* ######################################################################################################## */
+
+
+
+.card__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-two {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.card__contents h1 {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  color: var(--primary-color-sub);
+  margin-bottom: 7px;
+}
+
+.card__contents p {
+  font-size: var(--fs-body);
+  margin-bottom: 10px;
+}
+
+.card__contents span {
+  color: var(--primary-color-main);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  text-transform: uppercase;
+}
 
 
 
@@ -202,10 +258,32 @@ body {
 
 
 /* --------------------------------------------------------------------------------------------------------- */
-                                          /* Section One & Two */
+                                          /* Card Section */
 /* --------------------------------------------------------------------------------------------------------- */
 
+.card__container{
+  flex-direction: row;
+  gap: 35px;
+}
 
 
 }
 
+
+
+
+
+
+
+
+
+
+/* second media screen - for larger */
+
+@media only screen and (min-width: 950px) { 
+
+.card-two {
+  flex-direction: row;
+}
+
+}
