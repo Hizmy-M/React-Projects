@@ -98,6 +98,13 @@ body {
 }
 
 
+.main-image {
+  max-width: 550px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Header Section */
@@ -133,6 +140,21 @@ body {
   padding: 13px 21px;
   border: 2px solid white;
 }
+
+
+
+.secondary-btn {
+  background: var(--primary-color-main);
+  color: white;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: var(--primary-color-main);
+  border: 2px solid var(--primary-color-main);
+
+}
+
 
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Section One & Two */
@@ -264,6 +286,44 @@ body {
 /* --------------------------------------------------------------------------------------------------------- */
                                           /* Collection Ideas Section */
 /* --------------------------------------------------------------------------------------------------------- */
+.collect__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.collect__two {
+  text-align: center;
+
+}
+
+.collect__two h2 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  color: var(--primary-color-sub);
+  margin-bottom: 10px;
+}
+
+.collect__two p {
+  font-size: var(--fs-small);
+  margin-bottom: 10px;
+  text-align: start;
+
+
+}
+
+.collect__two ul li {
+  font-size: var(--fs-small);
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.collect__two button {
+  margin-top: 15px;
+
+}
 
 
 
@@ -283,7 +343,7 @@ body {
   --fs-h2: 1.75rem;
   --fs-h3: 1.5rem;
   --fs-body: 1rem;
-  --fs-small: 0.85rem;
+  --fs-small: 1rem;
   --fs-button: 0.80rem;
   --fs-label: 0.85rem;
   --fs-footer: 0.85rem;
@@ -347,7 +407,24 @@ body {
   flex-direction: row;
   gap: 30px;
   justify-content: center;
+  
 }
+
+
+
+
+
+.collect__container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+
+.collect__two {
+  width: 50%;
+}
+
 
 }
 
