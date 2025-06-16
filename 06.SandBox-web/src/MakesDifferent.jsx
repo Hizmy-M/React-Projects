@@ -1,14 +1,14 @@
 export default function MakesDifferent() {
     return (
         <section>
-            <div className="different__container">
+            <div className="different__container width">
                 <div className="different__one">
                     <div className="different__image-one">
-                        <img src="/src/assets/image-06.png" alt="image-06" />
+                        <img className="main-image" src="/src/assets/image-06.png" alt="image-06" />
                     </div>
                     <div className="different__image-two">
-                        <img src="/src/assets/image-07.png" alt="image-07" />
-                        <img src="/src/assets/image-08.png" alt="image-08" />
+                        <img className="main-image" src="/src/assets/image-07.png" alt="image-07" />
+                        <img className="main-image" src="/src/assets/image-08.png" alt="image-08" />
                     </div>
                 </div>
                 <div className="different__two">

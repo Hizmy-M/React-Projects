@@ -407,7 +407,6 @@ body {
   margin-bottom: 30px;
 }
 
-
 .latest__one {
   text-align: center;
   margin-bottom: 30px;
@@ -437,6 +436,24 @@ body {
   color: var(--font-color-light);
 }
 
+
+/* makes different */
+.different__one {
+  border: 2px solid red;
+}
+
+
+.different__two {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.different__content-one {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .different-card-content {
   margin-left: 10px;
 }
@@ -449,6 +466,7 @@ body {
 .different-card-content span {
   font-size: var(--fs-label);
 }
+
 
 
 
@@ -585,6 +603,35 @@ body {
   align-items: center;
   gap: 30px;
 }
+
+
+/* different content */
+.different__container {
+  display: flex;
+}
+
+.different__two {
+  width: 50%;
+}
+
+.different__image-two {
+  display: flex;
+  gap: 30px;
+}
+
+.different__image-two img {
+  max-width: 250px;
+}
+ 
+
+
+.different__content-two {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
 
 
 }
