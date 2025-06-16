@@ -333,6 +333,15 @@ body {
   height: auto;
 }
 
+.percentage-icon {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.pargraph-icon {
+  font-size: var(--fs-h3);
+}
+
 .save__one {
   text-align: center;
 }

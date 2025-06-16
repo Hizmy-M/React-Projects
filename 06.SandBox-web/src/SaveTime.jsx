@@ -9,13 +9,13 @@ export default function SaveTime() {
                 <div className="save__two"> 
                     <div className="save__two-icon">
                         <img className="savetime-icon" src="/src/assets/icon-07.png" alt="icon-07" />
-                        <span>95%</span>
-                        <p>Customer Satisfaction</p>
+                        <span className="percentage-icon">95%</span>
+                        <p className="pargraph-icon">Customer Satisfaction</p>
                     </div>
                     <div className="save__two-icon">
                         <img className="savetime-icon" src="/src/assets/icon-08.png" alt="icon-08" />
-                        <span>80%</span>
-                        <p>Increase Sales</p>
+                        <span className="percentage-icon">80%</span>
+                        <p className="pargraph-icon">Increase Sales</p>
                     </div>
                 </div>
             </div>
