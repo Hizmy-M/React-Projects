@@ -617,12 +617,14 @@ body {
 .different__image-two {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .different__image-two img {
   max-width: 250px;
 }
- 
+
 
 
 .different__content-two {
@@ -630,6 +632,8 @@ body {
   gap: 20px;
   width: 100%;
   max-width: 1000px;
+  justify-content: center;
+  align-items: center;
 }
 
 

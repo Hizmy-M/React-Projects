@@ -17,25 +17,28 @@ export default function MakesDifferent() {
                         <h2 className="main-font">We bring solutions to make life <br /> easier for our customers</h2>
                     </div>
                     <div className="different__content-two">
-                        <div className="choose-us__card">
-                            <div different-image-container>
-                                <img className="icon-image" src="/src/assets/icon-09.png" alt="icon-09" />
+                        <div>
+                            <div className="choose-us__card">
+                                <div different-image-container>
+                                    <img className="icon-image" src="/src/assets/icon-09.png" alt="icon-09" />
+                                </div>
+                                <div className="different-card-content">
+                                    <p>Creativity</p>
+                                    <span>Curabitur blandit lacus portitor ridiculus mus.</span>
+                                </div>
                             </div>
-                            <div className="different-card-content">
-                                <p>Creativity</p>
-                                <span>Curabitur blandit lacus portitor ridiculus mus.</span>
+                            <div className="choose-us__card">
+                                <div different-image-container>
+                                    <img className="icon-image" src="/src/assets/icon-10.png" alt="icon-10" />
+                                </div>
+                                <div className="different-card-content">
+                                    <p>Innovative Thinking</p>
+                                    <span>Curabitur blandit lacus portitor ridiculus mus.</span>
+                                </div>
                             </div>
                         </div>
-                        <div className="choose-us__card">
-                            <div different-image-container>
-                                <img className="icon-image" src="/src/assets/icon-10.png" alt="icon-10" />
-                            </div>
-                            <div className="different-card-content">
-                                <p>Innovative Thinking</p>
-                                <span>Curabitur blandit lacus portitor ridiculus mus.</span>
-                            </div>
-                        </div>
-                        <div className="choose-us__card">
+                        <div>
+                            <div className="choose-us__card">
                             <div different-image-container>
                                 <img className="icon-image" src="/src/assets/icon-11.png" alt="icon-11" />
                             </div>
@@ -52,6 +55,7 @@ export default function MakesDifferent() {
                                 <p>Top-Notch Support</p>
                                 <span>Curabitur blandit lacus portitor ridiculus mus.</span>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
