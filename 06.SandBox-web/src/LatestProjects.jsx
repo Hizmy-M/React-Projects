@@ -1,7 +1,7 @@
 export default function LatestProjects() {
     return (
         <section>
-            <div className="latest__container">
+            <div className="latest__container width">
                 <div className="latest__one">
                     <span className="sub-font">Latest Projects</span>
                     <h2 className="main-font">Check out some of our awesome projects <br /> with creative ideas and great design.</h2>
@@ -9,7 +9,7 @@ export default function LatestProjects() {
                 <div className="latest__two">
                     <div className="latest-card">
                         <div className="latest-card__image">
-                            <img src="/src/assets/image-04.png" alt="image-03" />
+                            <img className="latest-section-image" src="/src/assets/image-04.png" alt="image-03" />
                         </div>
                         <div className="latest-card__content">
                             <p>Cras Fermentem Sem</p>
@@ -18,7 +18,7 @@ export default function LatestProjects() {
                     </div>
                     <div className="latest-card">
                         <div className="latest-card__image">
-                            <img src="/src/assets/image-05.png" alt="image-03" />
+                            <img className="latest-section-image" src="/src/assets/image-05.png" alt="image-03" />
                         </div>
                         <div className="latest-card__content">
                             <p>Mollis Ipsum Mattis</p>
@@ -27,7 +27,7 @@ export default function LatestProjects() {
                     </div>
                     <div className="latest-card">
                         <div className="latest-card__image">
-                            <img src="/src/assets/image-06.png" alt="image-03" />
+                            <img className="latest-section-image" src="/src/assets/image-03.png" alt="image-03" />
                         </div>
                         <div className="latest-card__content">
                             <p>Ipsum Ultricies Cursus</p>
