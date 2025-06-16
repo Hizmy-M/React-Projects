@@ -3,8 +3,8 @@ export default function LatestProjects() {
         <section>
             <div className="latest__container">
                 <div className="latest__one">
-                    <span>Latest Projects</span>
-                    <h2>Check out some of our awesome projects with creative ideas and great design.</h2>
+                    <span className="sub-font">Latest Projects</span>
+                    <h2 className="main-font">Check out some of our awesome projects <br /> with creative ideas and great design.</h2>
                 </div>
                 <div className="latest__two">
                     <div className="latest-card">
