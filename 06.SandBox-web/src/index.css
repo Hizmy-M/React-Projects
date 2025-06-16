@@ -437,6 +437,18 @@ body {
   color: var(--font-color-light);
 }
 
+.different-card-content {
+  margin-left: 10px;
+}
+
+.different-card-content p {
+  font-size: var(--fs-small);
+  font-weight: 500;
+}
+
+.different-card-content span {
+  font-size: var(--fs-label);
+}
 
 
 
