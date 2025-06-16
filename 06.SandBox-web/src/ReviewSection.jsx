@@ -1,9 +1,9 @@
 export default function ReviewSection() {
     return (
         <section>
-            <div className="review__container">
+            <div className="review__container width">
                 <div className="review__one">
-                    <img src="/src/assets/image-02.png" alt="" />
+                    <img className="main-image" src="/src/assets/image-02.png" alt="" />
                 </div>
                 <div className="review__two">
                     <p>
