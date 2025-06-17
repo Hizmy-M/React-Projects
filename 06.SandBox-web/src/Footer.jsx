@@ -3,7 +3,7 @@ export default function Footer() {
         <footer>
         <div className="footer__container">
             <div className="footer__one">
-                <p>SandaBox</p>
+                <p>SandBox</p>
                 <span>All rights reserved</span>
                 <div className="social-icons">
                     <div>
