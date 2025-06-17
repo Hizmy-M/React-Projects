@@ -291,6 +291,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
 
 }
 
@@ -334,6 +336,8 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 
 .save__one {
@@ -381,6 +385,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .review__two p {
@@ -404,7 +409,8 @@ body {
 /* ######################################################################################################## */
 
 .latest__container {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+
 }
 
 .latest__one {
@@ -438,10 +444,16 @@ body {
 
 
 /* makes different */
+.different__container {
+  margin-top: 120px;
+}
+
+
 .different__two {
   align-items: center;
   display: flex;
   flex-direction: column;
+
 }
 
 .different__content-one {
